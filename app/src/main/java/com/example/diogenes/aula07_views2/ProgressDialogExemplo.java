@@ -36,6 +36,7 @@ public class ProgressDialogExemplo extends AppCompatActivity {
     }
 
     // Faz o download da imagem em uma nova Thread
+    //Qualquer operação de IO deve iniciar uma Thread
     private void downloadImagem(final String urlImg) {
         new Thread() {
             @Override

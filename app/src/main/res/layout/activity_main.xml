@@ -14,4 +14,11 @@
         android:layout_height="wrap_content"
         android:text="ProgressDiaglog"
         android:onClick="exemploProgressDialog"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressBar"
+        android:onClick="exemploProgressBar"/>
+
 </LinearLayout>

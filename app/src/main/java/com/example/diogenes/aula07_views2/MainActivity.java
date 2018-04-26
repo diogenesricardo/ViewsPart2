@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, ProgressDialogExemplo.class);
         startActivity(i);
     }
+
+    public void exemploProgressBar(View view) {
+        Intent i = new Intent(this, ProgressBarExemplo.class);
+        startActivity(i);
+    }
 }
