@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProgressDialogExemplo" />
-        <activity android:name=".ProgressBarExemplo"></activity>
+        <activity android:name=".ProgressBarExemplo" />
+        <activity android:name=".AlertDialogExemplo"></activity>
     </application>
 
 </manifest>

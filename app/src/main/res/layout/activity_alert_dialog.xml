@@ -5,26 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".AlertDialogExemplo">
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ProgressDiaglog"
-        android:onClick="exemploProgressDialog"/>
+        android:text="AlertOk"
+        android:onClick="exemploAlertOk"/>
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ProgressBar"
-        android:onClick="exemploProgressBar"/>
+        android:text="AlertYesNo"
+        android:onClick="exemploAlertYesNo"/>
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AlertDialog"
-        android:onClick="exemploAlertDialog"/>
-
+        android:text="AlertYesNoCancel"
+        android:onClick="exemploAlertYesNoCancel"/>
 </LinearLayout>
