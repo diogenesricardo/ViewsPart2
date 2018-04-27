@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".ProgressDialogExemplo" />
         <activity android:name=".ProgressBarExemplo" />
-        <activity android:name=".AlertDialogExemplo"></activity>
+        <activity android:name=".AlertDialogExemplo" />
+        <activity android:name=".ListViewExemplo"></activity>
     </application>
 
 </manifest>
