@@ -11,18 +11,18 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AlertOk"
+        android:text="Alert Ok"
         android:onClick="exemploAlertOk"/>
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AlertYesNo"
+        android:text="Alert Yes No"
         android:onClick="exemploAlertYesNo"/>
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AlertYesNoCancel"
+        android:text="Alert Yes No Cancel"
         android:onClick="exemploAlertYesNoCancel"/>
 </LinearLayout>
